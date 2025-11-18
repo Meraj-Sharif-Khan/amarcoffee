@@ -5,7 +5,6 @@ import Providers from "../redux/Providers.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Providers>
-
       <App />
     </Providers>
   </StrictMode>

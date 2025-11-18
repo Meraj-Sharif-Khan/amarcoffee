@@ -1,14 +1,16 @@
-import { useEffect } from "react";
+import { useSelector } from "react-redux";
+import { applyTheme } from '../src/components/theme/theme.js';
 import "./App.css";
-import { useDispatch } from "react-redux";
-import { toggleTheme } from "../redux/themeSlice.js";
+
 import Home from "./components/Home";
+import { useEffect } from "react";
 
 function App() {
-  const dispatch = useDispatch();
+  const theme = useSelector((state) => state.theme.mode);
+
   useEffect(() => {
-    dispatch(toggleTheme());
-  }, []);
+    applyTheme(theme);
+  }, [theme]);
 
   return (
     <>
