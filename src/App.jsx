@@ -1,15 +1,20 @@
-import './App.css'
-import Header from './components/Header'
-import Hero from './components/Hero'
+import { useEffect } from "react";
+import "./App.css";
+import { useDispatch } from "react-redux";
+import { toggleTheme } from "../redux/themeSlice.js";
+import Home from "./components/Home";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(toggleTheme());
+  }, []);
 
   return (
     <>
-    <Header/>
-      <Hero/>
+      <Home />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

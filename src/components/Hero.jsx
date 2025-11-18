@@ -5,7 +5,7 @@ import paperCoffeeCup from "../assets/images/paperCoffeeCup.png";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen relative bg-linear-to-br from-amber-900 via-amber-800 to-amber-900 overflow-hidden">
+    <div className="min-h-screen relative bg-background overflow-hidden">
       {/* Floating Coffee Beans */}
       <div className="pointer-events-none opacity-40">
         <div className="absolute top-20 right-1/4 w-20 h-16 ">

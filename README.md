@@ -1,16 +1,76 @@
-# React + Vite
+# ammarcoffee (Coffee Shop Landing Page) - Frontend Developer Intern Assignment. Task by [Bangladesh Thalassemia Foundation]
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+* name: Meraj Sharif
+* email: merajkhan.mk101@gmail.com
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [How to run](#how-to-run)
+- [Live Links](#links)
+- [Feature](#feature)
+- [Technology Used](#technology-Used)
+- [Screenshot](#screenshots)
+- [Author](#author)
 
-## React Compiler
+### How to run
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* clone this directory.
+`https://github.com/Meraj-Sharif-Khan/amarcoffee`
 
-## Expanding the ESLint configuration
+* Install dependencies.
+`npm install`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Run by.
+`npm run dev`
+
+
+### Feature
+- Responsive
+- Theme Switcher
+- Add to Favorites
+
+### Technology Used
+
+Core
+
+* React 19.2.0
+* Vite 7.2.2
+
+State Management
+
+* Redux Toolkit 2.10.1
+* React Redux 9.2.0
+
+Styling
+
+* Tailwind CSS 4.1.17
+
+UI Components
+
+* shadcn
+
+### Links
+
+- Live URL: [Live URL](https://amarcoffee.netlify.app/)
+- GitHub URL: [GitHub URL](https://github.com/Meraj-Sharif-Khan/amarcoffee)
+
+## Screenshots
+
+### Desktop View
+
+![](./public/desktopView.png)
+
+### Tab View
+
+![](./public/tabView.png)
+
+### Mobile View
+
+![](./public/mobileView.png)
+
+
+### Author
+
+- Portfolio - [Portfolio](https://merajsharif.netlify.app/)
+- Linkedin - [@MerajSharif](https://www.linkedin.com/in/meraj-sharif-0413a6264/)
+
